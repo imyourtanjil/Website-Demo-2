@@ -1,0 +1,194 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.header-top{
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+.nav{
+    width:1280px;
+    background: black;
+}
+.nav ul{
+padding:0;
+margin: 0;
+padding-left: 870px;
+overflow:hidden;
+}
+.nav ul li {
+list-style: none;
+display: inline-block;
+}
+.nav ul li a{
+display:block;
+padding: 20px 25px;
+color: #fff;
+font-size: 16px;
+font-weight: bold;
+text-transform: capitalize;
+text-decoration: none;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+.nav ul li a:hover{
+    color: red;
+    border: 0;
+    border: 1px solid red;
+    background: white;
+    text-transform: uppercase;
+}
+.banner-cover{
+    position: relative;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+span{
+    color: #ff5321;
+}
+.text{
+    padding: 100px 40px;
+}
+.text p{
+    text-align: center;
+   
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    padding-top: 100px;
+
+    font-weight: bold;
+}
+
+/* Side-Nav_Bar */
+.sidenavbar{
+    width: 250px;
+    height: auto;
+    background: #fff;
+}
+.sidenavbar h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform:uppercase;
+    background: #000000;
+    color: #fff;
+    width: 250px;
+    margin: 0;
+    padding: 10px 0px;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.sidenavbar ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidenavbar ul li{
+    list-style: none;
+}
+
+.sidenavbar ul li a{
+     display: block;
+     color: #000;
+     font-size: 20px;
+     font-weight: bold;
+     text-transform: capitalize;
+     text-decoration: none;
+     border-bottom: 1px dotted #000;
+     padding: 8px 15px;
+     margin: 0px 0px 0px 10px;
+     font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.sidenavbar ul li a:hover{
+    color: #fff;
+    background: red;
+}
+
+.main-content{
+    width: 700px;
+    padding: 0px 20px;
+}
+.main-content h1{
+    font-size:30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+.main-content h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 100px;
+}
+.main-content p{
+    font-family: 'Josefin Sans', sans-serif;
+    color:black;
+    font-size: 19px;
+line-height: 22px;
+padding-left: 150px;}
+
+..row{
+overflow: auto;
+}
+
+.col{
+float: left;
+}
+.footer-area{
+    background: #222;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    border: 0;
+    border: #ff5321 1px solid;
+    padding: 30px 0px;
+    display: block;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.footer-area p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:20px;
+}
+
+.footer-icon{}
+.footer-icon ul{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+.footer-icon ul li{
+    display: inline-block;
+}
+.footer-icon ul li a{
+    color: #fff;
+    padding: 10px 10px;
+
+}
+.footer-icon ul li a:hover{
+    font-size:30px;
+    color: red;
+}
